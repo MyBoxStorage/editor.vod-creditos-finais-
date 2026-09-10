@@ -145,7 +145,7 @@ export function windowWordRange(
     return { start, end: Math.min(wordCount, start + maxVisible) };
   }
   let windowStart = Math.max(0, activeIndex - Math.floor(maxVisible / 2));
-  let windowEnd = Math.min(wordCount, windowStart + maxVisible);
+  const windowEnd = Math.min(wordCount, windowStart + maxVisible);
   windowStart = Math.max(0, windowEnd - maxVisible);
   return { start: windowStart, end: windowEnd };
 }
