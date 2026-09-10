@@ -1,0 +1,32 @@
+# Segredos - NUNCA versionar
+.env
+.env.local
+*.env
+
+# Dependências e builds
+node_modules/
+dist/
+.next/
+*.tsbuildinfo
+
+# Mídia e binários grandes
+*.mp4
+*.mkv
+*.mov
+*.wav
+*.mp3
+*.m4a
+*.flac
+*.ogg
+*.webm
+gerados hoje/
+twitch/musicas/
+tools/*.exe
+tools/*.pdb
+
+# Dados pessoais/contratuais
+CONTRATO-EDITOR.md
+
+# Sistema
+.DS_Store
+*.log

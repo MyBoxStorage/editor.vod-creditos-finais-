@@ -1,0 +1,53 @@
+ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev13, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+Input #0, png_pipe, from 'C:\Users\pc\Desktop\Projetos\CLIP.VOD\twitch-clip-editor\backend\tmp_effects_test\normal_path_frames\t0_3.png':
+  Duration: N/A, bitrate: N/A
+  Stream #0:0: Video: png, rgb24(pc, gbr/unknown/unknown), 540x960 [SAR 5481:5480 DAR 49329:87680], 25 fps, 25 tbr, 25 tbn
+Stream mapping:
+  Stream #0:0 -> #0:0 (png (native) -> wrapped_avframe (native))
+Press [q] to stop, [?] for help
+[Parsed_metadata_3 @ 0000021fed562f00] frame:0    pts:0       pts_time:0
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.YMIN=16
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.YLOW=20
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.YAVG=98.0624
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.YHIGH=168
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.YMAX=221
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.UMIN=70
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.ULOW=126
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.UAVG=127.214
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.UHIGH=129
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.UMAX=133
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.VMIN=122
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.VLOW=124
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.VAVG=124.557
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.VHIGH=126
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.VMAX=135
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.SATMIN=0
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.SATLOW=2
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.SATAVG=3.55564
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.SATHIGH=5
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.SATMAX=58
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.HUEMED=18
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.HUEAVG=89.5381
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.YDIF=0
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.UDIF=0
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.VDIF=0
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.YBITDEPTH=8
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.UBITDEPTH=8
+[Parsed_metadata_3 @ 0000021fed562f00] lavfi.signalstats.VBITDEPTH=8
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.12.101
+  Stream #0:0: Video: wrapped_avframe, yuv444p(progressive), 216x288 [SAR 5481:5480 DAR 16443:21920], q=2-31, 200 kb/s, 25 fps, 25 tbn
+    Metadata:
+      encoder         : Lavc62.28.101 wrapped_avframe
+[out#0/null @ 0000021fed563cc0] video:0KiB audio:0KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=    1 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.04 bitrate=N/A speed=3.92x elapsed=0:00:00.01    

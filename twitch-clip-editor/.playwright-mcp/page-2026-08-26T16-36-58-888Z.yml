@@ -1,0 +1,73 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "← Candidatos marcados" [ref=e6] [cursor=pointer]:
+        - /url: /vod//marked
+      - heading "Editor do clipe" [level=1] [ref=e8]
+      - paragraph
+  - generic [ref=e9]:
+    - generic [ref=e10]:
+      - generic [ref=e11]: 0:00
+      - generic [ref=e12]: seleção 0:00.0–0:10.0 (10.0s)
+      - generic [ref=e13]: 0:00.0
+    - generic [ref=e15]:
+      - generic [ref=e16]:
+        - text: Start (min:seg)
+        - textbox "Start (min:seg)" [ref=e17]: 0:00
+      - generic [ref=e18]:
+        - text: End (min:seg)
+        - textbox "End (min:seg)" [ref=e19]: 0:10
+      - button "Preview trecho" [ref=e20]
+    - generic [ref=e21]:
+      - button "Start −1s" [ref=e22]
+      - button "Start −0.5s" [ref=e23]
+      - button "Start +0.5s" [ref=e24]
+      - button "Start +1s" [ref=e25]
+      - button "End −1s" [ref=e26]
+      - button "End −0.5s" [ref=e27]
+      - button "End +0.5s" [ref=e28]
+      - button "End +1s" [ref=e29]
+  - generic [ref=e30]:
+    - generic [ref=e31]:
+      - heading "Transcrição / legendas" [level=2] [ref=e32]
+      - button "Transcrever este trecho" [ref=e33]
+    - paragraph [ref=e34]: Sem segmentos ainda — transcreva o trecho para revisar por segmento.
+    - generic [ref=e35]:
+      - checkbox "Queimar legendas no export" [checked] [ref=e36]
+      - text: Queimar legendas no export
+    - generic [ref=e37]:
+      - paragraph [ref=e38]: Range de legenda (relativo ao clipe, 0 = início do preview)
+      - generic [ref=e39]:
+        - radio "Clipe inteiro" [checked] [ref=e40]
+        - text: Clipe inteiro
+      - generic [ref=e41]:
+        - radio "Subset" [ref=e42]
+        - text: Subset
+  - generic [ref=e43]:
+    - heading "Export" [level=2] [ref=e44]
+    - generic [ref=e45]:
+      - generic [ref=e46]:
+        - text: Layout
+        - combobox "Layout" [ref=e47]
+      - generic [ref=e48]:
+        - text: Qualidade
+        - combobox "Qualidade" [ref=e49]:
+          - option "draft"
+          - option "hd" [selected]
+          - option "max"
+      - generic [ref=e50]:
+        - text: Velocidade (1.00x)
+        - slider "Velocidade (1.00x)" [ref=e51]: "1"
+      - generic [ref=e52]:
+        - text: Cor
+        - combobox "Cor" [ref=e53]:
+          - option "Nenhum" [selected]
+          - option "Vívido"
+    - generic [ref=e54]:
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - heading "Zoom (keyframes)" [level=3] [ref=e57]
+          - paragraph [ref=e58]: Tempo relativo ao clipe (0 = início do preview). Scale 1.0 = sem zoom. X/Y em % do frame (50 = centro).
+        - button "Adicionar ponto de zoom" [ref=e59]
+      - paragraph [ref=e60]: Nenhum ponto — export sem zoom manual.
+    - button "Exportar" [ref=e62]

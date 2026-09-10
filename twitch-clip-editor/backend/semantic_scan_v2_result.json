@@ -1,0 +1,28 @@
+{
+  "vodId": "v2820282061",
+  "status": "completed",
+  "model": "claude-sonnet-4-6",
+  "windowCount": 15,
+  "windowSeconds": 240,
+  "overlapSeconds": 20,
+  "count": 1,
+  "usage": {
+    "inputTokens": 19313,
+    "outputTokens": 210,
+    "estimatedCostUsd": 0.0611
+  },
+  "candidates": [
+    {
+      "start": 1739.7,
+      "end": 1742.1,
+      "title": "Tô jogando Gran Turismo!",
+      "reason": "Em plena live de um jogo completamente diferente, alguém responde que está jogando Gran Turismo — timing absurdo e inesperado que funciona perfeitamente como corte engraçado para TikTok.",
+      "score": 7,
+      "windowIndex": 7,
+      "windowStart": 1540,
+      "windowEnd": 1780,
+      "transcriptSnippet": "[1739.7-1742.1] Tô jogando Gran Turismo!"
+    }
+  ],
+  "semanticPath": "C:\\Users\\pc\\Desktop\\Projetos\\CLIP.VOD\\twitch-clip-editor\\backend\\data\\v2820282061\\semantic_candidates.json"
+}

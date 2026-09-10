@@ -1,0 +1,87 @@
+{
+  "vodId": "v2820282061",
+  "status": "completed",
+  "model": "claude-sonnet-4-6",
+  "windowCount": 15,
+  "windowSeconds": 240,
+  "overlapSeconds": 20,
+  "count": 7,
+  "usage": {
+    "inputTokens": 15983,
+    "outputTokens": 914,
+    "estimatedCostUsd": 0.0617
+  },
+  "candidates": [
+    {
+      "start": 94.5,
+      "end": 109.6,
+      "title": "Facecam de gostosa no lugar do streamer",
+      "reason": "O streamer reage de forma engraçada à ativação do facecam sugerindo trocar sua câmera pela de uma gostosa aleatória e chamar de Assault, gerando humor absurdo que funciona bem em corte curto para TikTok.",
+      "windowIndex": 0,
+      "windowStart": 0,
+      "windowEnd": 240,
+      "transcriptSnippet": "[94.5-99.3] Ih é, botou facecam, agora é que eu vou atirar aqui mesmo.\n[102.9-107.3] Coloca o vídeo uma gostosa aí mano, foda-se, pega o facecam de uma gostosa aí, aleatório\n[107.3-109.6] qualquer coloca aí, vai chamar de Assault."
+    },
+    {
+      "start": 254,
+      "end": 293,
+      "title": "Hacker matou os dois e ainda assim tombou",
+      "reason": "Sequência cômica e tensa: o streamer acusa o inimigo de ser hacker por matar os dois sem morrer, mas revela que mesmo assim conseguiu derrubar o suposto hacker. A troca de 'eu deitei ele / ele sentou na bala' cria uma narrativa engraçada e confusa que pode engajar bem no TikTok.",
+      "windowIndex": 1,
+      "windowStart": 220,
+      "windowEnd": 460,
+      "transcriptSnippet": "[254.0-255.3] O cara matou os dois, mano.\n[255.3-258.6] Eu acho que ele já foi de...\n[258.6-260.1] Já tem um especialista já.\n[261.3-262.4] Ah, o cara tava de hacker.\n[263.9-264.4] Não é possível.\n[267.0-270.6] É que tem cartão que spawna lá em cima naquele andar, tá ligado?\n[270.6-272.3] Tem cartão que spawna na pirâmide.\n[273.7-275.3] Não, mas porra, ele não tem morrido.\n[277.9-279.6] Sentei a bala nele, ele matou nós dois.\n[280.5-281.4] Tu sentou nele, né mano?\n[281.6-283.3] Eu dentei, eu dentei um deles.\n[284.1-289.6] O cara que te matou, eu deitei ele, mano.\n[290.0-291.5] É, ele sentou na bala dele, eu deitei nele.\n[291.9-293.1] Aí brotou os dois lá."
+    },
+    {
+      "start": 996,
+      "end": 1020,
+      "title": "Morreu ou não morreu?",
+      "reason": "Sequência confusa e tensa onde o streamer parece morrer, xinga, discute se morreu ou não ('eu não morri lá' / 'morri ali'), e ainda consegue pegar alguém de volta. A contradição e a reação emocional criam um momento caótico e engraçado que pode prender atenção no TikTok.",
+      "windowIndex": 4,
+      "windowStart": 880,
+      "windowEnd": 1120,
+      "transcriptSnippet": "[996.4-996.8] morreu\n[996.8-998.3] filho da puta ai matou\n[1001.3-1002.3] tem dois ai eu não morri\n[1008.3-1010.3] eu não morri lá\n[1014.9-1015.4] morri ali\n[1015.4-1017.4] te peguei\n[1019.2-1020.5] ta vendo?"
+    },
+    {
+      "start": 1151.6,
+      "end": 1170.8,
+      "title": "Pedrinho perdeu a bazuca e o streamer quer sacanhar",
+      "reason": "Momento de zoação entre parceiros de jogo: o streamer provoca o Pedrinho por nunca mais ter feito a bazuca e comemora que a arma foi removida do jogo, criando uma interação engraçada e de briguinha leve que pode engajar quem não estava assistindo.",
+      "windowIndex": 5,
+      "windowStart": 1100,
+      "windowEnd": 1340,
+      "transcriptSnippet": "[1151.6-1152.2] pedrinho\n[1152.2-1153.7] tu nunca mais fez aquela bazuca\n[1159.6-1160.5] quero te sacanhar\n[1168.9-1170.8] arrancou a bazuca do jogo"
+    },
+    {
+      "start": 1463,
+      "end": 1498,
+      "title": "Deus foi bom demais com a gente",
+      "reason": "Sequência de frustração após rush mal executado seguida de reação cômica religiosa ('seu deus é bom, seu deus foi muito bom fazer isso pra gente'), terminando com o time apanhando e a frase resignada 'sacudam a poeira'. Tem tensão, erro, reação engraçada e derrota numa sequência curta.",
+      "windowIndex": 6,
+      "windowStart": 1320,
+      "windowEnd": 1560,
+      "transcriptSnippet": "[1460.8-1463.1] ele deu aqui\n[1463.1-1465.1] a gente não devia ter tentado\n[1465.1-1466.0] rushar não\n[1466.0-1468.2] devia ter marcado\n[1468.8-1470.8] tava farando gato\n[1477.2-1478.9] seu deus é bom\n[1478.9-1480.3] seu deus foi muito bom\n[1480.3-1482.8] fazer isso pra gente ai\n[1483.5-1484.1] não tem não\n[1492.1-1493.1] quase quase\n[1493.9-1495.2] eles pegaram a gente\n[1495.2-1496.1] de jeito\n[1496.1-1497.5] sacudam a poeira pra gente\n[1497.5-1498.0] tá bom"
+    },
+    {
+      "start": 1737,
+      "end": 1742,
+      "title": "Tô jogando Gran Turismo!",
+      "reason": "Resposta completamente inesperada e cômica — alguém pergunta se ZV vai jogar (presumivelmente o jogo da live) e a resposta é que está jogando Gran Turismo, criando um momento de humor absurdo e virada inesperada.",
+      "windowIndex": 7,
+      "windowStart": 1540,
+      "windowEnd": 1780,
+      "transcriptSnippet": "[1737.3-1738.7] O que você, ZV, não vai jogar, não?\n[1739.7-1742.1] Tô jogando Gran Turismo!"
+    },
+    {
+      "start": 2116.5,
+      "end": 2120,
+      "title": "Ganhou o LOD de bobeira",
+      "reason": "Reação espontânea e engraçada do streamer comentando que ganhou o LOD (provavelmente uma premiação ou item raro no jogo) sem esforço, usando expressão cômica 'soburro pra caralho'. Momento de reação genuína que pode gerar identificação e risadas.",
+      "windowIndex": 9,
+      "windowStart": 1980,
+      "windowEnd": 2220,
+      "transcriptSnippet": "[2116.5-2120.0] Pô, acabou ganhando o LOD, soburro pra caralho"
+    }
+  ],
+  "semanticPath": "C:\\Users\\pc\\Desktop\\Projetos\\CLIP.VOD\\twitch-clip-editor\\backend\\data\\v2820282061\\semantic_candidates.json"
+}

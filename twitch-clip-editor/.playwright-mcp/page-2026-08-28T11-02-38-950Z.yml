@@ -1,0 +1,64 @@
+- generic [ref=f65e3]:
+  - banner [ref=f65e4]:
+    - generic [ref=f65e5]:
+      - link "← Candidatos marcados" [ref=f65e6] [cursor=pointer]:
+        - /url: /vod//marked
+      - heading "Editor do clipe" [level=1] [ref=f65e8]
+      - paragraph
+  - generic [ref=f65e10]:
+    - tablist [ref=f65e11]:
+      - tab "cortar" [selected] [ref=f65e12]
+      - tab "legendas" [ref=f65e14]
+      - tab "momentos" [ref=f65e15]
+      - tab "efeitos" [ref=f65e16]
+      - tab "ajuste fino" [ref=f65e17]
+    - tabpanel [ref=f65e19]:
+      - generic [ref=f65e21]:
+        - generic [ref=f65e22]:
+          - generic [ref=f65e23]: 0:00,0
+          - generic [ref=f65e24]: seleção 0:00,0–0:10,0 (0:10,0)
+          - generic [ref=f65e25]: 0:00,0
+        - generic [ref=f65e27]:
+          - generic [ref=f65e28]:
+            - text: início
+            - textbox "início" [ref=f65e29]: 0:00,0
+          - generic [ref=f65e30]:
+            - text: fim
+            - textbox "fim" [ref=f65e31]: 0:10,0
+          - button "ver trecho" [ref=f65e32]
+        - generic [ref=f65e33]:
+          - button "início −1s" [ref=f65e34]
+          - button "início −0,5s" [ref=f65e35]
+          - button "início +0,5s" [ref=f65e36]
+          - button "início +1s" [ref=f65e37]
+          - button "fim −1s" [ref=f65e38]
+          - button "fim −0,5s" [ref=f65e39]
+          - button "fim +0,5s" [ref=f65e40]
+          - button "fim +1s" [ref=f65e41]
+  - generic [ref=f65e42]:
+    - generic [ref=f65e43]:
+      - generic [ref=f65e44]:
+        - generic [ref=f65e45]: vídeo
+        - generic [ref=f65e46]: legenda
+        - generic [ref=f65e47]: momentos
+        - generic [ref=f65e48]: efeitos
+        - generic [ref=f65e49]: áudio
+      - generic [ref=f65e51]:
+        - generic [ref=f65e52] [cursor=pointer]
+        - generic [ref=f65e53] [cursor=pointer]
+        - generic [ref=f65e54] [cursor=pointer]
+        - generic [ref=f65e55] [cursor=pointer]
+        - generic [ref=f65e56] [cursor=pointer]
+    - paragraph [ref=f65e59]: 0:00,0 / 0:10,0
+  - generic [ref=f65e60]:
+    - generic [ref=f65e61]:
+      - generic [ref=f65e62]:
+        - text: enquadramento
+        - combobox "enquadramento" [ref=f65e63]
+      - generic [ref=f65e64]:
+        - text: qualidade
+        - combobox "qualidade" [ref=f65e65]:
+          - option "rascunho"
+          - option "alta" [selected]
+          - option "máxima"
+    - button "Exportar" [ref=f65e67]

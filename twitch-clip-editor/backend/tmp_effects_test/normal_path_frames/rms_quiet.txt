@@ -1,0 +1,197 @@
+ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev13, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from 'data\v2820282061\prontos\run_2026-07-22_15h03_semantic\de6ddea8-8368-446f-a9f5-407a0217a7b9_final.mp4':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.101
+  Duration: 00:00:07.08, start: 0.000000, bitrate: 245 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709/unknown/unknown, progressive), 540x960 [SAR 4096:4095 DAR 256:455], 135 kb/s, SAR 5481:5480 DAR 49329:87680, 60 fps, 60 tbr, 15360 tbn, start 0.066016 (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc62.28.101 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 96 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (h264 (native) -> wrapped_avframe (native))
+  Stream #0:1 -> #0:1 (aac (native) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:0    pts:0       pts_time:0
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-37.483549
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:1    pts:384     pts_time:0.008
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-38.631233
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:2    pts:1408    pts_time:0.0293333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.060058
+Output #0, null, to 'pipe:':
+  Metadata:
+    major_brand     : isom
+    minor_version   : 512
+    compatible_brands: isomiso2avc1mp41
+    encoder         : Lavf62.12.101
+  Stream #0:0(und): Video: wrapped_avframe, yuv420p(tv, bt709/unknown/unknown, progressive), 540x960 [SAR 5481:5480 DAR 49329:87680], q=2-31, 200 kb/s, 60 fps, 60 tbn (default)
+    Metadata:
+      encoder         : Lavc62.28.101 wrapped_avframe
+      handler_name    : VideoHandler
+  Stream #0:1(und): Audio: pcm_s16le, 48000 Hz, stereo, s16, 1536 kb/s (default)
+    Metadata:
+      encoder         : Lavc62.28.101 pcm_s16le
+      handler_name    : SoundHandler
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:3    pts:2432    pts_time:0.0506667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.304337
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:4    pts:3456    pts_time:0.072
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-42.781061
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:5    pts:4480    pts_time:0.0933333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-40.097341
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:6    pts:5504    pts_time:0.114667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.888665
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:7    pts:6528    pts_time:0.136
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.767378
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:8    pts:7552    pts_time:0.157333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-41.728815
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:9    pts:8576    pts_time:0.178667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-40.523495
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:10   pts:9600    pts_time:0.2
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.955558
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:11   pts:10624   pts_time:0.221333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-38.895520
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:12   pts:11648   pts_time:0.242667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.789970
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:13   pts:12672   pts_time:0.264
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.533076
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:14   pts:13696   pts_time:0.285333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-38.035714
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:15   pts:14720   pts_time:0.306667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-37.752526
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:16   pts:15744   pts_time:0.328
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-37.955973
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:17   pts:16768   pts_time:0.349333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-38.909854
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:18   pts:17792   pts_time:0.370667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-37.627464
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:19   pts:18816   pts_time:0.392
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.044602
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:20   pts:19840   pts_time:0.413333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.196366
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:21   pts:20864   pts_time:0.434667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-38.740914
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:22   pts:21888   pts_time:0.456
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.196315
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:23   pts:22912   pts_time:0.477333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.337554
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:24   pts:23936   pts_time:0.498667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-38.189112
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:25   pts:24960   pts_time:0.52
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-35.805301
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:26   pts:25984   pts_time:0.541333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-36.694065
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:27   pts:27008   pts_time:0.562667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-36.890874
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:28   pts:28032   pts_time:0.584
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-37.698459
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:29   pts:29056   pts_time:0.605333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-39.126612
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:30   pts:30080   pts_time:0.626667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-42.376108
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:31   pts:31104   pts_time:0.648
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-22.119390
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:32   pts:32128   pts_time:0.669333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-15.328733
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:33   pts:33152   pts_time:0.690667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-8.143764
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:34   pts:34176   pts_time:0.712
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-9.872845
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:35   pts:35200   pts_time:0.733333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-12.475491
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:36   pts:36224   pts_time:0.754667
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-13.107723
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:37   pts:37248   pts_time:0.776
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-12.543044
+[Parsed_ametadata_1 @ 0000022f680320c0] frame:38   pts:38272   pts_time:0.797333
+[Parsed_ametadata_1 @ 0000022f680320c0] lavfi.astats.Overall.RMS_level=-13.591568
+[Parsed_astats_0 @ 0000022f68031540] Channel: 1
+[Parsed_astats_0 @ 0000022f68031540] DC offset: 0.045100
+[Parsed_astats_0 @ 0000022f68031540] Min level: -0.419360
+[Parsed_astats_0 @ 0000022f68031540] Max level: 0.528830
+[Parsed_astats_0 @ 0000022f68031540] Min difference: 0.000871
+[Parsed_astats_0 @ 0000022f68031540] Max difference: 0.385504
+[Parsed_astats_0 @ 0000022f68031540] Mean difference: 0.099748
+[Parsed_astats_0 @ 0000022f68031540] RMS difference: 0.127709
+[Parsed_astats_0 @ 0000022f68031540] Peak level dB: -5.533685
+[Parsed_astats_0 @ 0000022f68031540] RMS level dB: -13.591568
+[Parsed_astats_0 @ 0000022f68031540] RMS peak dB: -13.591568
+[Parsed_astats_0 @ 0000022f68031540] RMS through dB: -13.591568
+[Parsed_astats_0 @ 0000022f68031540] Crest factor: 2.528682
+[Parsed_astats_0 @ 0000022f68031540] Flat factor: 0.000000
+[Parsed_astats_0 @ 0000022f68031540] Peak count: 2
+[Parsed_astats_0 @ 0000022f68031540] Abs Peak count: 1
+[Parsed_astats_0 @ 0000022f68031540] Noise floor dB: nan
+[Parsed_astats_0 @ 0000022f68031540] Noise floor count: 0
+[Parsed_astats_0 @ 0000022f68031540] Entropy: 0.534856
+[Parsed_astats_0 @ 0000022f68031540] Bit depth: 30/31/31/31
+[Parsed_astats_0 @ 0000022f68031540] Dynamic range: 60.397046
+[Parsed_astats_0 @ 0000022f68031540] Zero crossings: 22
+[Parsed_astats_0 @ 0000022f68031540] Zero crossings rate: 0.171875
+[Parsed_astats_0 @ 0000022f68031540] Number of NaNs: 0
+[Parsed_astats_0 @ 0000022f68031540] Number of Infs: 0
+[Parsed_astats_0 @ 0000022f68031540] Number of denormals: 0
+[Parsed_astats_0 @ 0000022f68031540] Channel: 2
+[Parsed_astats_0 @ 0000022f68031540] DC offset: 0.045100
+[Parsed_astats_0 @ 0000022f68031540] Min level: -0.419360
+[Parsed_astats_0 @ 0000022f68031540] Max level: 0.528830
+[Parsed_astats_0 @ 0000022f68031540] Min difference: 0.000871
+[Parsed_astats_0 @ 0000022f68031540] Max difference: 0.385504
+[Parsed_astats_0 @ 0000022f68031540] Mean difference: 0.099748
+[Parsed_astats_0 @ 0000022f68031540] RMS difference: 0.127709
+[Parsed_astats_0 @ 0000022f68031540] Peak level dB: -5.533685
+[Parsed_astats_0 @ 0000022f68031540] RMS level dB: -13.591568
+[Parsed_astats_0 @ 0000022f68031540] RMS peak dB: -13.591568
+[Parsed_astats_0 @ 0000022f68031540] RMS through dB: -13.591568
+[Parsed_astats_0 @ 0000022f68031540] Crest factor: 2.528682
+[Parsed_astats_0 @ 0000022f68031540] Flat factor: 0.000000
+[Parsed_astats_0 @ 0000022f68031540] Peak count: 2
+[Parsed_astats_0 @ 0000022f68031540] Abs Peak count: 1
+[Parsed_astats_0 @ 0000022f68031540] Noise floor dB: nan
+[Parsed_astats_0 @ 0000022f68031540] Noise floor count: 0
+[Parsed_astats_0 @ 0000022f68031540] Entropy: 0.534856
+[Parsed_astats_0 @ 0000022f68031540] Bit depth: 30/31/31/31
+[Parsed_astats_0 @ 0000022f68031540] Dynamic range: 60.397046
+[Parsed_astats_0 @ 0000022f68031540] Zero crossings: 22
+[Parsed_astats_0 @ 0000022f68031540] Zero crossings rate: 0.171875
+[Parsed_astats_0 @ 0000022f68031540] Number of NaNs: 0
+[Parsed_astats_0 @ 0000022f68031540] Number of Infs: 0
+[Parsed_astats_0 @ 0000022f68031540] Number of denormals: 0
+[Parsed_astats_0 @ 0000022f68031540] Overall
+[Parsed_astats_0 @ 0000022f68031540] DC offset: 0.045100
+[Parsed_astats_0 @ 0000022f68031540] Min level: -0.419360
+[Parsed_astats_0 @ 0000022f68031540] Max level: 0.528830
+[Parsed_astats_0 @ 0000022f68031540] Min difference: 0.000871
+[Parsed_astats_0 @ 0000022f68031540] Max difference: 0.385504
+[Parsed_astats_0 @ 0000022f68031540] Mean difference: 0.099748
+[Parsed_astats_0 @ 0000022f68031540] RMS difference: 0.127709
+[Parsed_astats_0 @ 0000022f68031540] Peak level dB: -5.533685
+[Parsed_astats_0 @ 0000022f68031540] RMS level dB: -13.591568
+[Parsed_astats_0 @ 0000022f68031540] RMS peak dB: -13.591568
+[Parsed_astats_0 @ 0000022f68031540] RMS through dB: -13.591568
+[Parsed_astats_0 @ 0000022f68031540] Flat factor: 0.000000
+[Parsed_astats_0 @ 0000022f68031540] Peak count: 2.000000
+[Parsed_astats_0 @ 0000022f68031540] Abs Peak count: 1.000000
+[Parsed_astats_0 @ 0000022f68031540] Noise floor dB: nan
+[Parsed_astats_0 @ 0000022f68031540] Noise floor count: 0.000000
+[Parsed_astats_0 @ 0000022f68031540] Entropy: 0.534856
+[Parsed_astats_0 @ 0000022f68031540] Bit depth: 30/31/31/31
+[Parsed_astats_0 @ 0000022f68031540] Number of samples: 128
+[Parsed_astats_0 @ 0000022f68031540] Number of NaNs: 0.000000
+[Parsed_astats_0 @ 0000022f68031540] Number of Infs: 0.000000
+[Parsed_astats_0 @ 0000022f68031540] Number of denormals: 0.000000
+[out#0/null @ 0000022f65fb21c0] video:20KiB audio:150KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+frame=   48 fps=0.0 q=-0.0 Lsize=N/A time=00:00:00.80 bitrate=N/A speed=18.2x elapsed=0:00:00.04    

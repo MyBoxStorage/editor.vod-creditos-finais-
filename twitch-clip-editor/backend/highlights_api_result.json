@@ -1,0 +1,43 @@
+{
+  "vodId": "v2820282061",
+  "status": "completed",
+  "count": 6,
+  "highlights": [
+    {
+      "start": 112,
+      "end": 130,
+      "reason": "Streamer reage com risada e fala sobre distorcer a voz, momento de energia e laughter confirmados.",
+      "suggestedTitle": "Distorça a voz! 😂"
+    },
+    {
+      "start": 1738,
+      "end": 1755,
+      "reason": "Streamer grita que está jogando Gran Turismo, pico de energia claro e frase engraçada.",
+      "suggestedTitle": "TÔ JOGANDO GRAN TURISMO! 🏎️"
+    },
+    {
+      "start": 2427,
+      "end": 2458,
+      "reason": "Pico combinado de laughter e energia em sequência (candidatos #1 e #6), janela agrupada cobre o momento de hype.",
+      "suggestedTitle": "A galera EXPLODIU no chat 💥"
+    },
+    {
+      "start": 2318,
+      "end": 2335,
+      "reason": "Pico isolado de energia alta sem transcrição, indica reação física/gameplay intensa.",
+      "suggestedTitle": "Que momento foi ESSE? 😱"
+    },
+    {
+      "start": 2613,
+      "end": 2665,
+      "reason": "Sequência longa de picos de energia e laughter cobrindo candidatos #9 ao #3, agrupados em um momento de hype sustentado.",
+      "suggestedTitle": "O chat foi a LOUCURA aqui 🔥"
+    },
+    {
+      "start": 2914,
+      "end": 2932,
+      "reason": "Dois picos de energia consecutivos (#4 e #15) sem fala, indicando reação forte a gameplay.",
+      "suggestedTitle": "Sem palavras... só REAÇÃO 😤"
+    }
+  ]
+}

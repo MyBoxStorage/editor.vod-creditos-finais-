@@ -1,0 +1,57 @@
+[
+  {
+    "index": 1,
+    "clipId": "b949060d-18fc-47f8-b5e9-2306afbaa437",
+    "start": 2427.0,
+    "end": 2437.0,
+    "durationSec": 10.0,
+    "reason": "Pico de risada e energia detectado pelo chat sem contexto verbal, provável reação intensa a algo na tela.",
+    "title": "A REAÇÃO QUE O CHAT NÃO ESQUECE 😭🔥",
+    "finalPath": "C:\\Users\\pc\\Desktop\\Projetos\\CLIP.VOD\\twitch-clip-editor\\backend\\data\\v2820282061\\clips\\b949060d-18fc-47f8-b5e9-2306afbaa437\\final.mp4",
+    "match": "claude+candidate"
+  },
+  {
+    "index": 2,
+    "clipId": "431d540f-5b75-41ff-880f-4fab89091969",
+    "start": 112.0,
+    "end": 122.0,
+    "durationSec": 10.0,
+    "reason": "Streamer reage com energia dizendo 'distorça a voz', gerando risada e hype no chat.",
+    "title": "DISTORÇA A VOZ 😂🎙️",
+    "finalPath": "C:\\Users\\pc\\Desktop\\Projetos\\CLIP.VOD\\twitch-clip-editor\\backend\\data\\v2820282061\\clips\\431d540f-5b75-41ff-880f-4fab89091969\\final.mp4",
+    "match": "claude+candidate"
+  },
+  {
+    "index": 3,
+    "clipId": "99e255c2-0dd9-45ec-8b3f-607fca6497e5",
+    "start": 2645.0,
+    "end": 2663.0,
+    "durationSec": 18.0,
+    "reason": "Clipe de energia alta com transcrição de 'e aí' repetido por ~14s, indicando momento de hype ou loop cômico prolongado.",
+    "title": "E AÍ... E AÍ... E AÍ?? 💀🔁",
+    "finalPath": "C:\\Users\\pc\\Desktop\\Projetos\\CLIP.VOD\\twitch-clip-editor\\backend\\data\\v2820282061\\clips\\99e255c2-0dd9-45ec-8b3f-607fca6497e5\\final.mp4",
+    "match": "claude+candidate"
+  },
+  {
+    "index": 4,
+    "clipId": "375e5acb-9338-4d7c-a0c2-1ecb383ca01d",
+    "start": 2913.0,
+    "end": 2922.0,
+    "durationSec": 9.0,
+    "reason": "Pico de energia sem fala registrada, provavelmente reação visual forte ou jogada impactante.",
+    "title": "SEM PALAVRAS PRA ISSO 🤯🎮",
+    "finalPath": "C:\\Users\\pc\\Desktop\\Projetos\\CLIP.VOD\\twitch-clip-editor\\backend\\data\\v2820282061\\clips\\375e5acb-9338-4d7c-a0c2-1ecb383ca01d\\final.mp4",
+    "match": "claude+candidate"
+  },
+  {
+    "index": 5,
+    "clipId": "875b9c8a-f2c0-4722-8006-6710be3f86b0",
+    "start": 2317,
+    "end": 2325.0,
+    "durationSec": 8.0,
+    "reason": "Top candidate source=energy score=2 (Claude nao refinou este pico)",
+    "title": "candidate-5",
+    "finalPath": "C:\\Users\\pc\\Desktop\\Projetos\\CLIP.VOD\\twitch-clip-editor\\backend\\data\\v2820282061\\clips\\875b9c8a-f2c0-4722-8006-6710be3f86b0\\final.mp4",
+    "match": "candidate-fallback"
+  }
+]

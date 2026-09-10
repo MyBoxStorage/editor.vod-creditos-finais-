@@ -1,0 +1,103 @@
+ffmpeg version 8.1.1-full_build-www.gyan.dev Copyright (c) 2000-2026 the FFmpeg developers
+  built with gcc 15.2.0 (Rev13, Built by MSYS2 project)
+  configuration: --enable-gpl --enable-version3 --enable-static --disable-w32threads --disable-autodetect --enable-cairo --enable-fontconfig --enable-iconv --enable-gnutls --enable-lcms2 --enable-libxml2 --enable-gmp --enable-bzlib --enable-lzma --enable-libsnappy --enable-zlib --enable-librist --enable-libsrt --enable-libssh --enable-libzmq --enable-avisynth --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-sdl2 --enable-libaribb24 --enable-libaribcaption --enable-libdav1d --enable-libdavs2 --enable-libopenjpeg --enable-libquirc --enable-libuavs3d --enable-libxevd --enable-libzvbi --enable-liboapv --enable-libqrencode --enable-librav1e --enable-libsvtav1 --enable-libvvenc --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxavs2 --enable-libxeve --enable-libxvid --enable-libaom --enable-libjxl --enable-libsvtjpegxs --enable-libvpx --enable-mediafoundation --enable-libass --enable-frei0r --enable-libfreetype --enable-libfribidi --enable-libharfbuzz --enable-liblensfun --enable-libvidstab --enable-libvmaf --enable-libzimg --enable-amf --enable-cuda-llvm --enable-cuvid --enable-dxva2 --enable-d3d11va --enable-d3d12va --enable-ffnvcodec --enable-libvpl --enable-nvdec --enable-nvenc --enable-vaapi --enable-libshaderc --enable-vulkan --enable-libplacebo --enable-opencl --enable-libcdio --enable-openal --enable-libgme --enable-libmodplug --enable-libopenmpt --enable-libopencore-amrwb --enable-libmp3lame --enable-libshine --enable-libtheora --enable-libtwolame --enable-libvo-amrwbenc --enable-libcodec2 --enable-libilbc --enable-libgsm --enable-liblc3 --enable-libopencore-amrnb --enable-libopus --enable-libspeex --enable-libvorbis --enable-ladspa --enable-libbs2b --enable-libflite --enable-libmysofa --enable-librubberband --enable-libsoxr --enable-chromaprint --enable-whisper
+  libavutil      60. 26.101 / 60. 26.101
+  libavcodec     62. 28.101 / 62. 28.101
+  libavformat    62. 12.101 / 62. 12.101
+  libavdevice    62.  3.101 / 62.  3.101
+  libavfilter    11. 14.101 / 11. 14.101
+  libswscale      9.  5.101 /  9.  5.101
+  libswresample   6.  3.101 /  6.  3.101
+Input #0, mp3, from 'data\_library\music\74f89f12-374a-445c-8a46-3779b9f1850c.mp3':
+  Metadata:
+    encoder         : Lavf57.83.100
+  Duration: 00:00:07.76, start: 0.025057, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3 (mp3float), 44100 Hz, stereo, fltp, 128 kb/s, start 0.025057
+    Metadata:
+      encoder         : Lavc57.10
+Stream mapping:
+  Stream #0:0 -> #0:0 (mp3 (mp3float) -> pcm_s16le (native))
+Press [q] to stop, [?] for help
+Output #0, null, to 'pipe:':
+  Metadata:
+    encoder         : Lavf62.12.101
+  Stream #0:0: Audio: pcm_s16le, 44100 Hz, stereo, s16, 1411 kb/s
+    Metadata:
+      encoder         : Lavc62.28.101 pcm_s16le
+[Parsed_astats_2 @ 000002898fd03bc0] Channel: 1
+[Parsed_astats_2 @ 000002898fd03bc0] DC offset: -0.000003
+[Parsed_astats_2 @ 000002898fd03bc0] Min level: -0.645382
+[Parsed_astats_2 @ 000002898fd03bc0] Max level: 0.577360
+[Parsed_astats_2 @ 000002898fd03bc0] Min difference: 0.000000
+[Parsed_astats_2 @ 000002898fd03bc0] Max difference: 0.161458
+[Parsed_astats_2 @ 000002898fd03bc0] Mean difference: 0.008642
+[Parsed_astats_2 @ 000002898fd03bc0] RMS difference: 0.015307
+[Parsed_astats_2 @ 000002898fd03bc0] Peak level dB: -3.803662
+[Parsed_astats_2 @ 000002898fd03bc0] RMS level dB: -24.657329
+[Parsed_astats_2 @ 000002898fd03bc0] RMS peak dB: -15.410416
+[Parsed_astats_2 @ 000002898fd03bc0] RMS through dB: -154.365382
+[Parsed_astats_2 @ 000002898fd03bc0] Crest factor: 11.032739
+[Parsed_astats_2 @ 000002898fd03bc0] Flat factor: 0.000000
+[Parsed_astats_2 @ 000002898fd03bc0] Peak count: 2
+[Parsed_astats_2 @ 000002898fd03bc0] Abs Peak count: 1
+[Parsed_astats_2 @ 000002898fd03bc0] Noise floor dB: -102.874272
+[Parsed_astats_2 @ 000002898fd03bc0] Noise floor count: 182
+[Parsed_astats_2 @ 000002898fd03bc0] Entropy: 0.745853
+[Parsed_astats_2 @ 000002898fd03bc0] Bit depth: 31/32/32/32
+[Parsed_astats_2 @ 000002898fd03bc0] Dynamic range: 295.545837
+[Parsed_astats_2 @ 000002898fd03bc0] Zero crossings: 11546
+[Parsed_astats_2 @ 000002898fd03bc0] Zero crossings rate: 0.064645
+[Parsed_astats_2 @ 000002898fd03bc0] Number of NaNs: 0
+[Parsed_astats_2 @ 000002898fd03bc0] Number of Infs: 0
+[Parsed_astats_2 @ 000002898fd03bc0] Number of denormals: 0
+[Parsed_astats_2 @ 000002898fd03bc0] Channel: 2
+[Parsed_astats_2 @ 000002898fd03bc0] DC offset: 0.000002
+[Parsed_astats_2 @ 000002898fd03bc0] Min level: -0.661316
+[Parsed_astats_2 @ 000002898fd03bc0] Max level: 0.582118
+[Parsed_astats_2 @ 000002898fd03bc0] Min difference: 0.000000
+[Parsed_astats_2 @ 000002898fd03bc0] Max difference: 0.307700
+[Parsed_astats_2 @ 000002898fd03bc0] Mean difference: 0.009603
+[Parsed_astats_2 @ 000002898fd03bc0] RMS difference: 0.019432
+[Parsed_astats_2 @ 000002898fd03bc0] Peak level dB: -3.591818
+[Parsed_astats_2 @ 000002898fd03bc0] RMS level dB: -24.294795
+[Parsed_astats_2 @ 000002898fd03bc0] RMS peak dB: -15.708079
+[Parsed_astats_2 @ 000002898fd03bc0] RMS through dB: -164.273019
+[Parsed_astats_2 @ 000002898fd03bc0] Crest factor: 10.842984
+[Parsed_astats_2 @ 000002898fd03bc0] Flat factor: 0.000000
+[Parsed_astats_2 @ 000002898fd03bc0] Peak count: 2
+[Parsed_astats_2 @ 000002898fd03bc0] Abs Peak count: 1
+[Parsed_astats_2 @ 000002898fd03bc0] Noise floor dB: -102.723391
+[Parsed_astats_2 @ 000002898fd03bc0] Noise floor count: 89
+[Parsed_astats_2 @ 000002898fd03bc0] Entropy: 0.745862
+[Parsed_astats_2 @ 000002898fd03bc0] Bit depth: 31/32/32/32
+[Parsed_astats_2 @ 000002898fd03bc0] Dynamic range: 320.031563
+[Parsed_astats_2 @ 000002898fd03bc0] Zero crossings: 12199
+[Parsed_astats_2 @ 000002898fd03bc0] Zero crossings rate: 0.068301
+[Parsed_astats_2 @ 000002898fd03bc0] Number of NaNs: 0
+[Parsed_astats_2 @ 000002898fd03bc0] Number of Infs: 0
+[Parsed_astats_2 @ 000002898fd03bc0] Number of denormals: 0
+[Parsed_astats_2 @ 000002898fd03bc0] Overall
+[Parsed_astats_2 @ 000002898fd03bc0] DC offset: -0.000003
+[Parsed_astats_2 @ 000002898fd03bc0] Min level: -0.661316
+[Parsed_astats_2 @ 000002898fd03bc0] Max level: 0.582118
+[Parsed_astats_2 @ 000002898fd03bc0] Min difference: 0.000000
+[Parsed_astats_2 @ 000002898fd03bc0] Max difference: 0.307700
+[Parsed_astats_2 @ 000002898fd03bc0] Mean difference: 0.009122
+[Parsed_astats_2 @ 000002898fd03bc0] RMS difference: 0.017492
+[Parsed_astats_2 @ 000002898fd03bc0] Peak level dB: -3.591818
+[Parsed_astats_2 @ 000002898fd03bc0] RMS level dB: -24.472280
+[Parsed_astats_2 @ 000002898fd03bc0] RMS peak dB: -15.410416
+[Parsed_astats_2 @ 000002898fd03bc0] RMS through dB: -164.273019
+[Parsed_astats_2 @ 000002898fd03bc0] Flat factor: 0.000000
+[Parsed_astats_2 @ 000002898fd03bc0] Peak count: 2.000000
+[Parsed_astats_2 @ 000002898fd03bc0] Abs Peak count: 1.000000
+[Parsed_astats_2 @ 000002898fd03bc0] Noise floor dB: -102.723391
+[Parsed_astats_2 @ 000002898fd03bc0] Noise floor count: 135.500000
+[Parsed_astats_2 @ 000002898fd03bc0] Entropy: 0.745857
+[Parsed_astats_2 @ 000002898fd03bc0] Bit depth: 31/32/32/32
+[Parsed_astats_2 @ 000002898fd03bc0] Number of samples: 178607
+[Parsed_astats_2 @ 000002898fd03bc0] Number of NaNs: 0.000000
+[Parsed_astats_2 @ 000002898fd03bc0] Number of Infs: 0.000000
+[Parsed_astats_2 @ 000002898fd03bc0] Number of denormals: 0.000000
+[out#0/null @ 000002898fd04880] video:0KiB audio:689KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: unknown
+size=N/A time=00:00:04.00 bitrate=N/A speed=70.2x elapsed=0:00:00.05    

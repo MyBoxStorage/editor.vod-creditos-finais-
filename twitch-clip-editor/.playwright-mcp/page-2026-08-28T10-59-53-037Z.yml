@@ -1,0 +1,89 @@
+- generic [ref=f61e1]:
+  - generic [ref=f61e3]:
+    - banner [ref=f61e4]:
+      - generic [ref=f61e5]:
+        - link "← Candidatos marcados" [ref=f61e6] [cursor=pointer]:
+          - /url: /vod/v2820282061/marked
+        - link "Gaveta de edição" [ref=f61e68] [cursor=pointer]:
+          - /url: /vod/v2820282061/segments
+        - generic [ref=f61e7]:
+          - heading "Editor do clipe" [level=1] [ref=f61e8]
+          - generic [ref=f61e69]: do VOD
+        - paragraph [ref=f61e70]: 62920681-08e8-4591-90b9-5a80f55ebc5b · trimmed
+        - paragraph [ref=f61e71]: "tempo do VOD: 19:12,0–19:30,0"
+    - paragraph [ref=f61e72]: "Zoação leve e genuína entre parceiros: streamer provoca o Pedrinho pela bazuca e comemora que a arma foi removida do jogo."
+    - generic [ref=f61e9]:
+      - generic [ref=f61e73]:
+        - generic [ref=f61e74]: prévia rápida
+        - generic [ref=f61e79]:
+          - button "reproduzir · 0:18,0" [ref=f61e80]
+          - button "render fiel" [ref=f61e81]
+        - generic [ref=f61e82]:
+          - checkbox "zonas seguras" [checked] [ref=f61e83]
+          - text: zonas seguras
+      - generic [ref=f61e10]:
+        - tablist [ref=f61e11]:
+          - tab "cortar" [ref=f61e12]
+          - tab "legendas" [ref=f61e14]
+          - tab "momentos" [active] [selected] [ref=f61e15]
+          - tab "efeitos" [ref=f61e16]
+          - tab "ajuste fino" [ref=f61e17]
+        - tabpanel [ref=f61e85]:
+          - generic [ref=f61e86]:
+            - heading "presets de momento" [level=3] [ref=f61e87]
+            - paragraph [ref=f61e88]: Escolha um preset, ajuste início/fim do efeito (relativo ao clipe) e intensidade, depois gere a prévia ffmpeg do trecho inteiro.
+            - generic [ref=f61e89]:
+              - button "En Ênfase" [ref=f61e90]:
+                - generic [ref=f61e91]: En
+                - text: Ênfase
+              - button "Su Suspense" [ref=f61e92]:
+                - generic [ref=f61e93]: Su
+                - text: Suspense
+              - button "Co Comemoração" [ref=f61e94]:
+                - generic [ref=f61e95]: Co
+                - text: Comemoração
+              - button "Sp Surpresa" [ref=f61e96]:
+                - generic [ref=f61e97]: Sp
+                - text: Surpresa
+              - button "De Decepção" [ref=f61e98]:
+                - generic [ref=f61e99]: De
+                - text: Decepção
+              - button "Wa Wasted" [ref=f61e100]:
+                - generic [ref=f61e101]: Wa
+                - text: Wasted
+    - generic [ref=f61e42]:
+      - generic [ref=f61e43]:
+        - generic [ref=f61e44]:
+          - generic [ref=f61e45]: vídeo
+          - generic [ref=f61e46]: legenda
+          - generic [ref=f61e47]: momentos
+          - generic [ref=f61e48]: efeitos
+          - generic [ref=f61e49]: áudio
+        - generic [ref=f61e51]:
+          - generic [ref=f61e52] [cursor=pointer]
+          - generic [ref=f61e53] [cursor=pointer]:
+            - generic "#0 0:01,9–0:05,0"
+            - generic "#1 0:09,5–0:11,0"
+            - generic "#2 0:19,1–0:20,0"
+          - generic [ref=f61e54] [cursor=pointer]
+          - generic [ref=f61e55] [cursor=pointer]
+          - generic [ref=f61e56] [cursor=pointer]
+      - paragraph [ref=f61e59]: 0:00,0 / 0:18,0
+    - generic [ref=f61e60]:
+      - generic [ref=f61e61]:
+        - generic [ref=f61e62]:
+          - text: enquadramento
+          - combobox "enquadramento" [ref=f61e63]:
+            - option "Vertical 9:16 (webcam em cima, gameplay embaixo)" [selected]
+            - option "Horizontal 16:9 (sem split) [PLACEHOLDER]"
+        - generic [ref=f61e64]:
+          - text: qualidade
+          - combobox "qualidade" [ref=f61e65]:
+            - option "rascunho"
+            - option "alta" [selected]
+            - option "máxima"
+      - generic [ref=f61e66]:
+        - button "Exportar" [ref=f61e67]
+        - button "Enviar para edição de trecho" [ref=f61e102]
+  - button "Open Next.js Dev Tools" [ref=f61e108] [cursor=pointer]
+  - alert [ref=f61e112]
